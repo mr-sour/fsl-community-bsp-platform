@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="pcg" name="PeopleNet/delta-puck-yocto-bsp" path="sources/meta-puck-ms5763"/>
+  <project remote="pcg" name="mr-sour/delta-puck-yocto-bsp" path="sources/meta-puck-ms5763"/>
 
 
   <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
