@@ -13,6 +13,9 @@
 
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
 
+  <project remote="pcg" name="meta-puck-ms5763" path="sources/meta-puck-ms5763"/>
+
+
   <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
