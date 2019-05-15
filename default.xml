@@ -13,8 +13,6 @@
 
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="pcg" name="delta-puck-yocto-bsp" revision="master"   path="sources/meta-puck-ms5763"/>
-
   <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
   <copyfile dest="README" src="README"/>
   <copyfile dest="setup-environment" src="setup-environment"/>
@@ -23,5 +21,8 @@
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
+  
+  <project remote="pcg" name="delta-puck-yocto-bsp" revision="master"   path="sources/meta-puck-ms5763"/>
+  <copyfile dest="sources/base/conf/bblayers.conf" src="bblayers.conf"/>
 
 </manifest>
