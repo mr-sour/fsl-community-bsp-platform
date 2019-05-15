@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/PeopleNet/delta-puck-yocto-bsp" name="pcg"/>
+  <remote fetch="git@github.com:PeopleNet/delta-puck-yocto-bsp.git" name="pcg"/>
 	
   <project remote="yocto" revision="8aea6ad597063fce98aefdd0b13cd834b718247a" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
