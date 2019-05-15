@@ -5,7 +5,7 @@
 
   <remote fetch="ssh://git@github.com/mr-sour/" name="pcg"/>
 	
-  <project remote="pcg" name="delta-puck-yocto-bsp" path="sources/meta-puck-ms5763"/>
+  <project remote="pcg" name="delta-puck-yocto-bsp" revision="master"  path="sources/meta-puck-ms5763"/>
 
 
 </manifest>
