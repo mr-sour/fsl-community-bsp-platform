@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="krogoth"/>
+  <default sync-j="8" revision="krogoth"/>
 
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="ssh://git@github.com/mr-sour/" name="pcg"/>
 	
-  <project remote="yocto" revision="8aea6ad597063fce98aefdd0b13cd834b718247a" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
-
-  <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
-
   <project remote="pcg" name="delta-puck-yocto-bsp" path="sources/meta-puck-ms5763"/>
 
-
-  <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
-	<copyfile dest="README" src="README"/>
-	<copyfile dest="setup-environment" src="setup-environment"/>
-  </project>
-
-  <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
